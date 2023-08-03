@@ -1,0 +1,128 @@
+
+
+.formInner{
+    max-width: 384px;
+    width: 100%;
+    min-height: 490px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 24px 24px 32px 24px;
+}
+
+.formWrapper{
+    padding-top: 120px;
+    width: 100%;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.label{
+    margin-bottom: 16px;
+    text-align: left;
+    margin-left: 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: #202020;
+}
+
+.input{
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    padding: 19px 16px;
+    max-width: 336px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #9B99AA;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9B99AA;
+}
+
+.input::placeholder{
+    font-size: 14px;
+    line-height: 16px;
+    color: #9B99AA;
+}
+
+.input + .input{
+    margin-top: 16px;
+}
+
+.textarea{
+    border-radius: 3px;
+    margin-top: 16px;
+    max-width: 336px;
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #9B99AA;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9B99AA;
+    resize: none;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.textarea::placeholder{
+    font-size: 14px;
+    line-height: 16px;
+    color: #9B99AA;
+}
+
+.btnClear{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 16px;
+    max-width: 128px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #BDBDBD;
+    transition: all .3s;
+}
+
+.btnClear:hover{
+    background-color: #2E09B6;
+}
+
+.btnSend{
+    cursor: pointer;
+    display: inline-block;
+    max-width: 192px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 8px;
+    color: #ffffff;
+    background-color: #13C98A;
+    transition: all .3s;
+}
+
+.btnSend:hover{
+    background-color: #2E09B6;
+}
+
+.select{
+    margin-top: 16px;
+}
+.select div{
+    cursor: pointer;
+    color: #1D1539; 
+    box-sizing: border-box;
+    padding: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+.mainRootWrapper {
+    padding: 60px 0;
+    color: #ffffff;
+    background-color: #282c34;
+    height: auto;
+}
+
+.mainRootEl p{
+    display: inline-block;
+    color: #2CF400;
+}
+
+.changeData{
+    cursor: pointer;
+    max-width: 232px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px;
+    background-color: #13C98A;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 20px;
+    border: none;
+    transition: all .3s;
+}
+
+.changeData:hover{
+    background-color: #2E09B6;
+}
